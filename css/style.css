@@ -262,3 +262,33 @@ nav {
         z-index: 2;
     }
 }
+
+/* MY WORK */
+
+.my-work {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+    margin: auto;
+}
+
+.portfolio {
+    display: flex;
+    gap: 20px
+}
+
+.portfolio__item {
+    background: var(--clr-accent);
+    overflow: hidden;
+}
+
+.portfolio__img {
+    transition: 
+    transform 750ms cubic-bezier(.5, 0, .5, 1),
+    opacity 250ms linear;
+}
+
+.portfolio__img:hover {
+    transform: scale(1.2);
+    opacity: .5;
+}
