@@ -12,8 +12,8 @@
     --fw-bold: 900;
 
     --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-dark: #676767;
+    --clr-accent: rgb(63, 187, 187);
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -289,7 +289,7 @@ h3 {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: ;
+    background-image: url();
     color: var(--clr-light);
     text-align: center;
 }
@@ -404,7 +404,7 @@ h3 {
 /* FOOTER (STYLING TO BE CONTINUED */
 
 .footer {
-    background-color: #111;
+    background-color: #0f0f0f;
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
