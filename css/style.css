@@ -403,9 +403,8 @@ h3 {
 
 /* FOOTER (STYLING TO BE CONTINUED */
 
-.footer {
-    background-color: #0f0f0f;
-    color: var(--clr-accent);
+footer {
+    background-color: rgba(20, 14, 14, 0.331);
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
@@ -416,18 +415,14 @@ h3 {
     text-decoration: none;
 }
 
-.footer__link {
+.footer__list {
+    color: var(--clr-light);
     font-weight: var(--fw-bold);
     text-decoration: none;
 }
 
-.footer__link:hover,
 .social-list__link:hover {
     opacity: .5;
-}
-
-.footer__link:hover {
-    text-decoration: underline;
 }
 
 .social-list {
